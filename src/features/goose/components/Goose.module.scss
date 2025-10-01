@@ -1,0 +1,23 @@
+.goose {
+	padding: 5em;
+	background-color: var(--background-secondary);
+	border: var(--border);
+	border-radius: 0.5em;
+	user-select: none;
+	cursor: pointer;
+
+	img {
+		display: block;
+		margin: auto;
+		width: 80%;
+
+		&.inactive {
+			opacity: 0.5;
+			filter: grayscale(1);
+		}
+	}
+
+	&:active {
+		scale: 1.02;
+	}
+}

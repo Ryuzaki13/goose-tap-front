@@ -1,0 +1,15 @@
+:root {
+	--background-primary: #181a20;
+	--background-secondary: #23262f;
+	--color-text: #f3f3f3;
+	--color-border: #333a45;
+	--color-primary: #3b82f6;
+	--color-primary-hover: #2563eb;
+	--color-primary-active: #1d4ed8;
+	--color-primary-disabled: #334155;
+
+	--color-error: #ff5959;
+
+	--border-width: 0.0625em;
+	--border: var(--border-width) solid var(--color-border);
+}

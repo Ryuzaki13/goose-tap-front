@@ -1,0 +1,22 @@
+.form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 1em;
+
+	margin: 1em auto;
+
+	width: min(25em, 100dvw);
+
+	h1 {
+		margin: 0;
+		font-size: 1.5em;
+	}
+}
+
+.errorList {
+	color: var(--color-error);
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
